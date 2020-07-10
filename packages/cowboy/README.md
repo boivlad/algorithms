@@ -1,4 +1,4 @@
-#Circle Formation
+# Circle Formation
 
 ## How to test:
 1. Clone this repository
@@ -14,7 +14,7 @@ const { cowboy, discomfort } = require('@algorithm/cowboy');
 cowboy(5, [2, 1, 1, 3, 2]); //Result "[1, 2, 3, 2, 1]"
 discomfort([1, 2, 3, 2, 1]); //Result "1"
 ```
-##Condition
+## Condition
 
 Cowboy Vlad has a birthday today! There are n children who came to the celebration. In order to greet Vlad, 
 the children decided to form a circle around him. Among the children who came, there are both tall and low, 
@@ -32,7 +32,7 @@ Please help children to find out how they should reorder themselves, so that the
 Write a function solution(n, l), that takes the number of the children who came to the cowboy Vlad's birthday as n, 
 and a list of heights of every child l and return the list of heights of the children in the order in which they should stand in a circle.
 
-##Algorithm
+## Algorithm
 1. Sort the array in ascending order
 2. First write all elements with even indices and then all elements with odd indices in reversed order.
 
