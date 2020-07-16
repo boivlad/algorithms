@@ -1,10 +1,11 @@
 {
-  "name": "algorithms",
+  "name": "@algorithm/cowboy",
   "version": "1.0.0",
-  "workspaces": [
-    "packages/*"
-  ],
-  "private": true,
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/boivlad/algorithms.git"
@@ -15,12 +16,7 @@
     "url": "https://github.com/boivlad/algorithms/issues"
   },
   "homepage": "https://github.com/boivlad/algorithms#readme",
-  "scripts": {
-    "postinstall": "lerna bootstrap",
-    "test": "lerna run --stream test",
-    "clean": "lerna clean"
-  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "jest": "^26.1.0"
   }
 }
