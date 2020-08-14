@@ -1,0 +1,22 @@
+{
+  "name": "@algorithm/curfew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boivlad/algorithms.git"
+  },
+  "author": "Vladyslav Boichenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boivlad/algorithms/issues"
+  },
+  "homepage": "https://github.com/boivlad/algorithms#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
