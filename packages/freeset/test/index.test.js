@@ -8,8 +8,13 @@ describe('k-Multiple Free Set', function() {
   it('Second case', function() {
     const result = MFS(6, 2, [1, 3, 4, 5, 7, 9]);
     expect(result).toEqual(6);
-  });it('Third case', function() {
+  });
+  it('Third case', function() {
     const result = MFS(10, 2, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
     expect(result).toEqual(6);
+  });
+  it('Third case', function() {
+    const result = MFS(4, 2, [3, 6, 12, 24]);
+    expect(result).toEqual(2);
   });
 });
